@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <style>
+        body{
+            font-family:'Inter';
+            margin: 0%;
+        } 
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            position: fixed;
+            padding: 0 .5em;
+            background-color: white;
+            box-shadow: 0px 5px 5px -1px gray;
+        }
+        header nav ul{
+            display: flex;
+           
+        }
+        header nav ul li{
+            list-style: none;
+        }
+        header nav ul li a{
+            text-decoration: none;
+            padding: 1.5em;
+            color: rgb(57, 57, 57);
+        }
+        header nav ul li a:hover{
+            color:hsl(5, 85%, 63%);
+        }
+        .body{
+            padding: 120px 100px;
+
+        }
+        .section-1{
+            display: flex;
+            justify-content: space-between;
+        }
+        .container-1{
+            flex: 0.7;
+            max-width: 900px;
+            min-width: 600px;
+            
+        }
+        .img-div{
+            width: 100%; 
+        }
+        .img-div img{
+            height: auto;
+            width: 100%;
+        }
+ 
+        .text-div{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .text-div div{
+            width: 280px;
+            height: 180px;
+            margin-top: 0px;
+        }
+        .text-div .div{
+            width: 360px;
+            color: rgb(59, 59, 59);
+            height: 150px;
+            line-height: 26px;
+            margin-bottom: 20px;
+            text-align: start;
+        }
+        .text-div div h1{
+            font-size: 48px;
+            word-spacing: 3px;
+            margin: 0%; 
+        }
+        .text-div .div p{
+            line-height: 30px;
+            letter-spacing: 1px;
+            white-space: 2px;
+        }
+        .text-div .div a{
+            background-color:hsl(5, 85%, 63%);
+            text-decoration: none;
+            color: black;
+            padding: 10px 20px;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 3px;
+        }
+        .container-2{
+            flex: 0.25;
+            max-width: 300px;
+            min-width: 200px;
+            
+            background-color: rgb(2, 1, 12);
+            color: white;
+            padding: 20px;
+        }
+        .container-2 div h2{
+            color: hsl(35, 77%, 62%) ;
+        }
+        .container-2 div p{
+            font-size: 12px;
+            line-height: 23px;
+            color: rgb(207, 202, 202);
+        }
+        hr{
+            border: 1px solid rgb(130, 130, 130);
+        }
+        .section-2{
+            display: flex;
+            justify-content: space-between;
+        }
+        .section-2 .div-con{
+            display: flex;
+            margin-top: 60px;
+            width: 360px;
+            height: 150px;
+        }
+        .section-2 .div-con div img{
+            height: 150px;
+            width: auto;
+        }
+        .section-2 .div-con div{
+            margin-right: 15px;
+        }
+        .section-2 .div-con div h3{
+            color:hsl(5, 85%, 63%) ;
+            font-size: 27px;
+            margin: 0%;
+        }
+        .section-2 .div-con div h6{
+            font-size: 16px;
+            margin: 3px;
+        }
+        .section-2 .div-con div p{
+            font-size: 13px;
+            line-height: 23px;
+            color: rgb(89, 89, 89);
+            
+        }
+        @media(max-width : 1090px){
+            body{
+                background-color: blue;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <header>
+            <h1>W.</h1>
+            
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">New</a></li>
+                    <li><a href="">Popular</a></li>
+                    <li><a href="">Trending</a></li>
+                    <li><a href="">Categories</a></li>
+                </ul>
+            </nav>
+                
+            
+        </header>
+
+
+        <div class="body">
+
+            <!-- this is the first section  -->
+            <section class="section-1">
+                <div class="container-1">
+                    <div class="img-div">
+                        <img src="/assets/images/image-web-3-desktop.jpg" alt="">
+                    </div>
+                    <div class="text-div">
+                        <div>
+                            <h1>The Bright Future of Web 3.0?</h1>
+                        </div>
+                        <div class="div">
+                            <p>We dive into the next evolution of the web that 
+                                claims to put the power of the platforms back 
+                                into the hands of the people. But is it really 
+                                fulfilling its promise?
+                            </p>
+                            <a href="">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+
+             
+                <div class="container-2">
+                    <div>
+                        <h2>New</h2>
+                        <h4> Hydrogen VS Electric Cars</h4>
+                        <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+                    </div>
+                    <hr>
+                    <div>
+                        <h4>The Downsides of AI Artistry</h4>
+                        <p> What are the possible adverse effects of on-demand AI 
+                            image generation?</p>
+                    </div>
+                    <hr>
+                    <div>
+                        <h4>Is VC Funding Drying Up?</h4>
+                        <p> Private funding by VC firms is down 50% YOY. 
+                            We take a look at what that means.
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <!-- this is the second section  -->
+            <section class="section-2">
+                <div class="div-con">
+                    <div>
+                        <img src="/assets/images/image-retro-pcs.jpg" alt="">
+                    </div>
+
+                    <div>
+                        <h3>01</h3>
+                        <h6> Reviving Retro PCs</h6>
+                        <p>What happens when old PCs are given modern upgrades?</p>
+                    </div>
+                </div>
+
+                <div class="div-con">
+                    <div>
+                        <img src="/assets/images/image-top-laptops.jpg" alt="">
+                    </div>
+
+                    <div>
+                        <h3>02</h3>
+                        <h6>Top 10 Laptops of 2022</h6>
+                        <p>Our best picks for various needs and budgets.</p>
+                    </div>
+                </div>
+
+                <div class="div-con">
+                    <div>
+                        <img src="/assets/images/image-gaming-growth.jpg" alt="">
+                    </div>
+
+                    <div>
+                        <h3>03</h3>
+                        <h6>The Growth of Gaming</h6>
+                        <p>How the pandemic has sparked fresh opportunities.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+
+    </div>
+</body>
+</html>
